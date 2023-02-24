@@ -1,0 +1,91 @@
+.containerContent{
+    padding-left: 69px;
+    padding-right: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoBox {
+    margin-top: 20px;
+}
+.boxTitle {
+    height: 210px;
+    margin-top: 30px;
+}
+.box {
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family: 'Roboto';
+    padding-top: 38px;
+}
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-family: 'Roboto';
+    padding-top: 18px;
+    padding-left: 269px;
+    padding-right: 269px;
+    text-align: center;
+}
+.containerItem{
+    display: flex;
+}
+.boxItem {
+    margin-top: 40px;
+    height: 210px;
+    /* width: 470px; */
+
+}
+.boxItemTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    font-family: 'Roboto';
+}
+.boxItemContent{
+margin-top: 18px;
+display: flex;
+justify-content: space-between;
+}
+.boxItemImg{
+    width: 128px;
+    height: 128px;
+    margin-right: 18px;
+}
+.boxItemDesShort{
+    /* width: 326px; */
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.boxItemDes {
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+    
+
+}
