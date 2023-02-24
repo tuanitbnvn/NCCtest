@@ -58,11 +58,9 @@
     
 }
 
-
 .sidebar .menu{
     margin-top: 0px;
 }
-
 
 .sidebar li a{
     list-style: none;
@@ -73,7 +71,6 @@
     height: 100%;
     width: 100%;
     text-decoration: none;
-    /* transition: var(--tran-03); */
 }
 
 .sidebar li a:hover{
@@ -84,7 +81,7 @@
     color: #FFFFFF;
 }
 
-.sidebar .menu-bar{
+.sidebar .menuBar{
     height: calc(100% - 55px);
     display: flex;
     flex-direction: column;
@@ -94,16 +91,7 @@
 .menu-bar::-webkit-scrollbar{
     display: none;
 }
-.sidebar .menu-bar .mode{
-    background-color: var(--primary-color-light);
-    position: relative;
-    transition: var(--tran-05);
-}
 
-.menu-bar .mode .sun-moon{
-    height: 50px;
-    width: 60px;
-}
 
 
 

@@ -3,51 +3,43 @@ import './styles.css'
 
 export default function SideBar() {
     return(
-        <nav className="sidebar ">
-        <div className="menu-bar">
-            <div className="menu">
-                <ul className="menu-links">
-                    <li className="nav-link">
-                        <a href="#">
-                            {/* <i className='bx bx-home-alt icon' ></i> */}
-                            <span className="text nav-text">Home</span>
-                        </a>
-                    </li>
+        <nav className="sidebar">
+            <div className="menuBar">
+                <div className="menu">
+                    <ul className="menuLinks">
+                        <li className="navLink">
+                            <a href="#">
+                                <span className="text">Home</span>
+                            </a>
+                        </li>
 
-                    <li className="nav-link">
-                        <a href="#">
-                            {/* <i className='bx bx-bar-chart-alt-2 icon' ></i> */}
-                            <span className="text nav-text">Services</span>
-                        </a>
-                    </li>
+                        <li className="navLink">
+                            <a href="#">
+                                <span className="text">Services</span>
+                            </a>
+                        </li>
 
-                    <li className="nav-link">
-                        <a href="#">
-                            {/* <i className='bx bx-bell icon'></i> */}
-                            <span className="text nav-text">News</span>
-                        </a>
-                    </li>
+                        <li className="navLink">
+                            <a href="#">
+                                <span className="text">News</span>
+                            </a>
+                        </li>
 
-                    <li className="nav-link">
-                        <a href="#">
-                            {/* <i className='bx bx-pie-chart-alt icon' ></i> */}
-                            <span className="text nav-text">Blog</span>
-                        </a>
-                    </li>
+                        <li className="navLink">
+                            <a href="#">
+                                <span className="text">Blog</span>
+                            </a>
+                        </li>
 
-                    <li className="nav-link">
-                        <a href="#">
-                            {/* <i className='bx bx-wallet icon' ></i> */}
-                            <span className="text nav-text">Contacts</span>
-                        </a>
-                    </li>
+                        <li className="navLink">
+                            <a href="#">
+                                <span className="text">Contact</span>
+                            </a>
+                        </li>
 
-                </ul>
+                    </ul>
+                </div>s
             </div>
-
-   
-        </div>
-
     </nav>
     )
 }
